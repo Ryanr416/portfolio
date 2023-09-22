@@ -2,7 +2,7 @@ import { Link as ReactRouterLink } from 'react-router-dom'
 import { Card, CardHeader, CardBody, CardFooter, Text, Button } from '@chakra-ui/react'
 import NavBar from '../../shared/NavBar'
 
-export default function About() {
+export default function Portfolio() {
 
 return (
 
