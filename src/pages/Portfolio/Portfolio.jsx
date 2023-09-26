@@ -11,50 +11,105 @@ Stack,
 Heading,
 Divider,
 ButtonGroup,
+Flex
 } from '@chakra-ui/react';
 import NavBar from '../../shared/NavBar';
-import './Portfolio.css';
 
 export default function Portfolio() {
 return (
-    <div>
-        <NavBar />
-    <Card>
-        <Card maxW="sm">
-        <CardBody>
-            <Image
-            src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
-            alt="Green double couch with wooden legs"
-            borderRadius="lg"
-            />
-            <Stack mt="6" spacing="3">
-            <Heading size="md">Living room Sofa</Heading>
-            <Text>
-                This sofa is perfect for modern tropical spaces, baroque
-                inspired spaces, earthy toned spaces and for people who love a
-                chic design with a sprinkle of vintage design.
-            </Text>
-            <Text color="blue.600" fontSize="2xl">
-                $450
-            </Text>
-            </Stack>
-        </CardBody>
-        <Divider />
-        <CardFooter>
-            <ButtonGroup spacing="2">
-            <Button variant="solid" colorScheme="blue">
-                Buy now
-            </Button>
-            <Button variant="ghost" colorScheme="blue">
-                Add to cart
-            </Button>
-            </ButtonGroup>
-        </CardFooter>
-        </Card>
-        <CardBody>
-        <Text>about.</Text>
-        </CardBody>
-    </Card>
-    </div>
-);
+        <div>
+          <NavBar />
+          <Flex justify="center" mt="4rem"> {/* Use Flex to horizontally center the cards */}
+            <Card maxW="sm" mr="2rem">
+              <CardBody>
+                <Image
+                  src="https://ancient-voice-480.fly.dev/static/assets/images/hero_img.png"
+                  borderRadius="lg"
+                />
+                <Stack mt="6" spacing="3">
+                  <Heading size="md">WanderLust</Heading>
+                  <Text>
+                    Wanderlust is an app that allows you to plan your itinerary for your next trip.
+                    You will be able to add a budget, add plans for a certain trip, and add friends to your planned
+                    trip. Organize your trip today with Wanderlust!
+                  </Text>
+                  <Text color="blue.600" fontSize="2xl">
+                    {/* Add any additional content here */}
+                  </Text>
+                </Stack>
+              </CardBody>
+              <Divider />
+              <CardFooter>
+                <ButtonGroup spacing="2">
+                  <Button variant="solid" colorScheme="blue">
+                    View App Now
+                  </Button>
+                </ButtonGroup>
+              </CardFooter>
+            </Card>
+      
+            
+            <Card maxW="sm" ml="2rem">
+            <CardBody>
+                <Image
+                  src="https://ancient-voice-480.fly.dev/static/assets/images/hero_img.png"
+                  borderRadius="lg"
+                />
+                <Stack mt="6" spacing="3">
+                  <Heading size="md">WanderLust</Heading>
+                  <Text>
+                    Wanderlust is an app that allows you to plan your itinerary for your next trip.
+                    You will be able to add a budget, add plans for a certain trip, and add friends to your planned
+                    trip. Organize your trip today with Wanderlust!
+                  </Text>
+                  <Text color="blue.600" fontSize="2xl">
+                    {/* Add any additional content here */}
+                  </Text>
+                </Stack>
+              </CardBody>
+              <Divider />
+              <CardFooter>
+                <ButtonGroup spacing="2">
+                  <Button variant="solid" colorScheme="blue">
+                    View App Now
+                  </Button>
+                </ButtonGroup>
+              </CardFooter>
+            </Card>
+
+
+            <Card maxW="sm" ml="4rem">
+            <CardBody>
+                <Image
+                  src="https://ancient-voice-480.fly.dev/static/assets/images/hero_img.png"
+                  borderRadius="lg"
+                />
+                <Stack mt="6" spacing="3">
+                  <Heading size="md">WanderLust</Heading>
+                  <Text>
+                    Wanderlust is an app that allows you to plan your itinerary for your next trip.
+                    You will be able to add a budget, add plans for a certain trip, and add friends to your planned
+                    trip. Organize your trip today with Wanderlust!
+                  </Text>
+                  <Text color="blue.600" fontSize="2xl">
+                    {/* Add any additional content here */}
+                  </Text>
+                </Stack>
+              </CardBody>
+              <Divider />
+              <CardFooter>
+                <ButtonGroup spacing="2">
+                  <Button variant="solid" colorScheme="blue">
+                    View App Now
+                  </Button>
+                </ButtonGroup>
+              </CardFooter>
+            </Card>
+          </Flex>
+        </div>
+      );
+      
+
+    
+
 }

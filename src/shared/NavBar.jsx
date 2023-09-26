@@ -11,7 +11,7 @@ export default function NavBar() {
     <Card>
     <CardBody>
     <ButtonGroup gap='5'>
-    <Button colorScheme='teal' as={Link} to="/home">Home</Button>
+    <Button colorScheme='blue' as={Link} to="/home">Home</Button>
     <Button as={Link} to="/portfolio">Portfolio</Button>
     <Button as={Link} to="/about">About</Button>
     </ButtonGroup>
