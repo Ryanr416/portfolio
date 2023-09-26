@@ -52,7 +52,7 @@ return (
             <Card maxW="sm" ml="2rem">
             <CardBody>
                 <Image
-                  src="https://ancient-voice-480.fly.dev/static/assets/images/hero_img.png"
+                  src="https://i.imgur.com/gVG4sY5.png"
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3">
