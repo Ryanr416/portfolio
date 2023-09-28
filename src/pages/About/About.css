@@ -1,0 +1,25 @@
+
+
+
+.about {
+    background-color: green;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0Re4s9gr_xFvz6s1Zea0hw1gF-PQPEKO5dg&usqp=CAU');
+    background-size: cover;
+    height: 100vh;
+    }
+
+
+
+.card-animation {
+    opacity: 0; /* Start with zero opacity (invisible) */
+    animation: fadeIn 5s ease-in-out forwards; /* Apply the animation */
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1; /* Fade in to full opacity */
+    }
+    }
