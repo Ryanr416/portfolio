@@ -11,7 +11,8 @@ Stack,
 Heading,
 Divider,
 ButtonGroup,
-Flex
+Flex,
+Link
 } from '@chakra-ui/react';
 import NavBar from '../../shared/NavBar';
 
@@ -32,6 +33,7 @@ return (
                     Wanderlust is an app that allows you to plan your itinerary for your next trip.
                     You will be able to add a budget, add plans for a certain trip, and add friends to your planned
                     trip. Organize your trip today with Wanderlust!
+                    Created with Python, Django, and GitHub
                   </Text>
                   <Text color="blue.600" fontSize="2xl">
                     {/* Add any additional content here */}
@@ -41,9 +43,11 @@ return (
               <Divider />
               <CardFooter>
                 <ButtonGroup spacing="2">
+                <a href="https://ancient-voice-480.fly.dev/" target="_blank" rel="noopener noreferrer">
                   <Button variant="solid" colorScheme="blue">
                     View App Now
                   </Button>
+                  </a>
                 </ButtonGroup>
               </CardFooter>
             </Card>
@@ -56,11 +60,10 @@ return (
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3">
-                  <Heading size="md">WanderLust</Heading>
+                  <Heading size="md">WeatherApp</Heading>
                   <Text>
-                    Wanderlust is an app that allows you to plan your itinerary for your next trip.
-                    You will be able to add a budget, add plans for a certain trip, and add friends to your planned
-                    trip. Organize your trip today with Wanderlust!
+                    This weather app allows you to create an account and login to view the weather in your area.
+                    Created using React, Node.js, Express, and PostgreSQL.
                   </Text>
                   <Text color="blue.600" fontSize="2xl">
                     {/* Add any additional content here */}
@@ -70,9 +73,11 @@ return (
               <Divider />
               <CardFooter>
                 <ButtonGroup spacing="2">
+                <a href="https://weather-app-mfq9.onrender.com" target="_blank" rel="noopener noreferrer">
                   <Button variant="solid" colorScheme="blue">
                     View App Now
                   </Button>
+                  </a>
                 </ButtonGroup>
               </CardFooter>
             </Card>
@@ -85,11 +90,10 @@ return (
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3">
-                  <Heading size="md">WanderLust</Heading>
+                  <Heading size="md">Finch Collector</Heading>
                   <Text>
-                    Wanderlust is an app that allows you to plan your itinerary for your next trip.
-                    You will be able to add a budget, add plans for a certain trip, and add friends to your planned
-                    trip. Organize your trip today with Wanderlust!
+                    Finch Collector is a robust and intuitive app that allows you to collect and store information about your favorite finches.
+                    Created using Django, Python, and PostgreSQL.
                   </Text>
                   <Text color="blue.600" fontSize="2xl">
                     {/* Add any additional content here */}
