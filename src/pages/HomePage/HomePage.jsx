@@ -5,8 +5,16 @@ export default function HomePage() {
 
 return (
 <div className="homePage">
-<NavBar/>
-
+  <NavBar />
+  <div className="content-container">
+    <div className="welcome-message">
+      Welcome to my portfolio
+    </div>
+    <div className="other-content">
+    </div>
+  </div>
 </div>
+
+
 )
 }
