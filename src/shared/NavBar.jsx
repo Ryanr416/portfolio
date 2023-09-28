@@ -1,6 +1,6 @@
 import { Card, CardHeader, CardBody, CardFooter, Text, Button, Link as ChakraLink, LinkProps, ButtonGroup, Center } from '@chakra-ui/react'
 import { Link } from 'react-router-dom'
-
+import '../shared/NavBar.css'
 
 
 
@@ -12,7 +12,7 @@ export default function NavBar() {
         
     };
     return (
-    <Card>
+    <Card className="navbar">
     <CardBody>
     <div style={ButtonGroupStyle}>
     <ButtonGroup gap='5'>
