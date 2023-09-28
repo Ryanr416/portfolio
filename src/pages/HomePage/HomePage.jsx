@@ -8,7 +8,7 @@ return (
   <NavBar />
   <div className="content-container">
     <div className="welcome-message">
-      Welcome to my portfolio
+      Welcome to Ryan's portfolio
     </div>
     <div className="other-content">
     </div>
