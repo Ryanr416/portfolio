@@ -21,7 +21,7 @@ return (
   </CardHeader>
   <CardBody>
     <Text> Thank you for visiting my website. I am excited to showcase my skills to you through this portoflio. I have been working hard on my react, django, python, 
-      JavaScript, GitHub, AWS, MongoDB, HTML and CSS. </Text>
+      JavaScript, GitHub, AWS, MongoDB, HTML and CSS.  You may contact me through the following channels : Email : ryanrichardson635@gmail.com and my LinkedIn : https://www.linkedin.com/in/ryan-richardson19/ </Text>
   </CardBody>
   <CardFooter>
   </CardFooter>
