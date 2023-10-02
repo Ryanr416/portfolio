@@ -20,7 +20,8 @@ return (
     <Heading size='md'> A Little About Me</Heading>
   </CardHeader>
   <CardBody>
-    <Text> hello </Text>
+    <Text> Thank you for visiting my website. I am excited to showcase my skills to you through this portoflio. I have been working hard on my react, django, python, 
+      JavaScript, GitHub, AWS, MongoDB, HTML and CSS. </Text>
   </CardBody>
   <CardFooter>
   </CardFooter>

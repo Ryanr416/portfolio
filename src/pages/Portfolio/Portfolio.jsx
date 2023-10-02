@@ -86,7 +86,7 @@ return (
             <Card maxW="sm" ml="4rem">
             <CardBody>
                 <Image
-                  src="https://ancient-voice-480.fly.dev/static/assets/images/hero_img.png"
+                  src=""
                   borderRadius="lg"
                 />
                 <Stack mt="6" spacing="3">
