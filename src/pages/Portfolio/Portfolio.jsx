@@ -48,6 +48,11 @@ return (
                     View App Now
                   </Button>
                   </a>
+                  <a href="https://github.com/Dami-Olus/ga_capstone_prjct_wanderlust" target="_blank" rel="noopener noreferrer">
+                  <Button variant="solid" colorScheme="blue">
+                    View GitHub Now
+                  </Button>
+                  </a>
                 </ButtonGroup>
               </CardFooter>
             </Card>
@@ -76,6 +81,11 @@ return (
                 <a href="https://weather-app-mfq9.onrender.com" target="_blank" rel="noopener noreferrer">
                   <Button variant="solid" colorScheme="blue">
                     View App Now
+                  </Button>
+                  </a>
+                  <a href="https://github.com/Ryanr416/Weather-App" target="_blank" rel="noopener noreferrer">
+                  <Button variant="solid" colorScheme="blue">
+                    View GitHub Now
                   </Button>
                   </a>
                 </ButtonGroup>
