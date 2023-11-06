@@ -36,3 +36,13 @@ height: 200vh;
       opacity: 1; /* Fade in to full opacity */
     }
 }
+
+.weather-card .card-content {
+  height: 715px; /* Set the desired height for the content */
+  overflow-y: auto; /* Add a scrollbar if the content exceeds the height */
+}
+
+.finch .card-content {
+  height: 715px; /* Set the desired height for the content */
+  overflow-y: auto; /* Add a scrollbar if the content exceeds the height */
+}
