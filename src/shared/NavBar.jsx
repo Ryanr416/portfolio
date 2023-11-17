@@ -1,7 +1,7 @@
 import {Image, Card, CardHeader, CardBody, CardFooter, Text, Button, Link as ChakraLink, LinkProps, ButtonGroup, Center, Stack } from '@chakra-ui/react'
 import { IoIosHome, IoIosFolderOpen, IoMdMail } from "react-icons/io";
 import { Link } from 'react-router-dom'
-import Logo from '../public/logo.svg';
+// import Logo from '../public/logo.svg';
 import '../shared/NavBar.css'
 
 
@@ -20,7 +20,7 @@ export default function NavBar() {
     return (
         <Card className="navbar">
             <CardBody>
-            <Image src={Logo.src} h="50px" />
+            {/* <Image src={Logo.src} h="50px" /> */}
                 <div style={ButtonGroupStyle} className='Home'>
                     <Stack direction='row' spacing={4} align='center' style={StackStyle}>
                         <Button as='a' href='#home' leftIcon={<IoIosHome />} colorScheme='teal' variant='outline'>Home</Button>

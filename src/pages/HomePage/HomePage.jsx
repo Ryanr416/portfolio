@@ -139,13 +139,12 @@ export default function HomePage() {
         </div>
         <div className="other-content">
           <div id='about'>
-        <Card align='center' style={{ width: '900px'}} className="card-animation">
+        <Card align='center' style={{ width: '1220px', background: 'linear-gradient(to right, #00a1ff, #00ff8f)'}} className="card-animation">
   <CardHeader>
-    <Heading size='md'> A Little About Me</Heading>
+    <Heading size='md' className='leftAlignedHeading'> A Little About Me...</Heading>
   </CardHeader>
   <CardBody>
-    <Text> Thank you for visiting my website. I am excited to showcase my skills to you through this portoflio. I have been working hard on my react, django, python, 
-      JavaScript, GitHub, AWS, MongoDB, HTML and CSS.  You may contact me through the following channels : Email : ryanrichardson635@gmail.com and my LinkedIn : https://www.linkedin.com/in/ryan-richardson19/ </Text>
+    <Text> I am a creative-minded software engineer who excels at problem-solving. As a student at General Assembly, I was taught the critical frameworks and languages for full-stack development. With my experience in tech support, I have developed a passion for software and everything that involves creating it. This experience has taught me to listen attentively to customers and provide the best possible solutions for each problem presented. It allowed me to nurture and foster my interest in technology, enabling me to pursue my true passion, which is software development  You may contact me through the following channels : Email : ryanrichardson635@gmail.com and my LinkedIn : https://www.linkedin.com/in/ryan-richardson19/ </Text>
   </CardBody>
   <CardFooter>
   </CardFooter>
