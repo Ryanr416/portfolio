@@ -22,10 +22,10 @@ export default function HomePage() {
       <NavBar />
       <div className="content-container">
         <div className="welcome-message">
-          <div id="home">
-            <center>Welcome to Ryan's portfolio</center>
-          </div>
           <div className="other-content">
+            <div id="home">
+              <center>Welcome to Ryan's portfolio</center>
+            </div>
             <div id="about">
               <Flex justify="center" padding="10" align="center" mt="4rem">
                 <Card

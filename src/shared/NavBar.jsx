@@ -17,10 +17,14 @@ export default function NavBar() {
   const ButtonGroupStyle = {
     display: 'flex',
     justifyContent: 'flex-end',
+    zIndex: 1500,
+    position: 'relative',
   };
 
   const StackStyle = {
-    marginBottom: '200px', // Adjust this value to move the buttons up or down
+    marginBottom: '200px',
+    position: 'relative',
+    zIndex: '1500',
   };
 
   const CardStyle = {
@@ -28,7 +32,7 @@ export default function NavBar() {
     top: 0,
     left: 0,
     right: 0,
-    zIndex: 1000, // Adjust the z-index as needed
+    zIndex: 1000,
   };
 
   return (
