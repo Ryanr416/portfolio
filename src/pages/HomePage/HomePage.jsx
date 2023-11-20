@@ -12,6 +12,7 @@ import {
   CardFooter,
   CardHeader,
 } from '@chakra-ui/react';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import NavBar from '../../shared/NavBar';
 import '../HomePage/HomePage.css';
 
@@ -67,12 +68,14 @@ export default function HomePage() {
               <Card maxW="sm" maxH="800px" flex="1" margin="1rem">
                 <div className="card-content">
                   <div id="portfolio">
+                    <Heading size="large">WanderLust</Heading>
                     <Image
                       src="https://ancient-voice-480.fly.dev/static/assets/images/hero_img.png"
                       borderRadius="lg"
+                      objectFit="cover"
+                      h="100%"
                     />
                     <Stack mt="3" spacing="3">
-                      <Heading size="md">WanderLust</Heading>
                       <Text fontSize="md">
                         Wanderlust is an app that allows you to plan your
                         itinerary for your next trip. You will be able to add a
@@ -80,35 +83,49 @@ export default function HomePage() {
                         your planned trip. Organize your trip today with
                         Wanderlust! Created with Python, Django, and GitHub
                       </Text>
-                      <Text color="blue.600" fontSize="2xl">
-                        {/* Add any additional content here */}
-                      </Text>
+                      <Text color="blue.600" fontSize="2xl"></Text>
                     </Stack>
-                    <Divider />
-                    <CardFooter>
-                      <ButtonGroup spacing="2">
-                        <a
-                          href="https://ancient-voice-480.fly.dev/"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button variant="solid" colorScheme="blue">
-                            View App Now
-                          </Button>
-                        </a>
-                        <a
-                          href="https://github.com/Dami-Olus/ga_capstone_prjct_wanderlust"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                        >
-                          <Button variant="solid" colorScheme="blue">
-                            View GitHub Now
-                          </Button>
-                        </a>
-                      </ButtonGroup>
-                    </CardFooter>
                   </div>
                 </div>
+                <Flex
+                  direction="column"
+                  justify="flex-end"
+                  align="center"
+                  mt="auto"
+                  p="3"
+                >
+                  <Divider />
+                  <CardFooter>
+                    <ButtonGroup spacing="2">
+                      <a
+                        href="https://ancient-voice-480.fly.dev/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          variant="solid"
+                          colorScheme="blue"
+                          leftIcon={<FaExternalLinkAlt />}
+                        >
+                          View App Now
+                        </Button>
+                      </a>
+                      <a
+                        href="https://github.com/Dami-Olus/ga_capstone_prjct_wanderlust"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        <Button
+                          leftIcon={<FaGithub />}
+                          variant="solid"
+                          colorScheme="green"
+                        >
+                          View GitHub Now
+                        </Button>
+                      </a>
+                    </ButtonGroup>
+                  </CardFooter>
+                </Flex>
               </Card>
 
               <Card
@@ -119,20 +136,29 @@ export default function HomePage() {
                 className="weather-card"
               >
                 <div className="card-content">
+                  <Heading size="large">WeatherApp</Heading>
                   <Image
                     src="https://i.imgur.com/gVG4sY5.png"
                     borderRadius="lg"
+                    objectFit="cover"
+                    h="60%"
                   />
                   <Stack mt="3" spacing="3">
-                    <Heading size="md">WeatherApp</Heading>
                     <Text fontSize="md">
                       This weather app allows you to create an account and login
                       to view the weather in your area. Created using React,
                       Node.js, Express, and PostgreSQL.
                     </Text>
-                    {/* Add additional content or padding to match the desired height */}
                     <Text fontSize="md" mt="auto" flex="1"></Text>
                   </Stack>
+                </div>
+                <Flex
+                  direction="column"
+                  justify="flex-end"
+                  align="center"
+                  mt="auto"
+                  p="3"
+                >
                   <Divider />
                   <CardFooter>
                     <ButtonGroup spacing="2">
@@ -141,7 +167,11 @@ export default function HomePage() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="solid" colorScheme="blue">
+                        <Button
+                          variant="solid"
+                          colorScheme="blue"
+                          leftIcon={<FaExternalLinkAlt />}
+                        >
                           View App Now
                         </Button>
                       </a>
@@ -150,13 +180,17 @@ export default function HomePage() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="solid" colorScheme="blue">
+                        <Button
+                          variant="solid"
+                          colorScheme="green"
+                          leftIcon={<FaGithub />}
+                        >
                           View GitHub Now
                         </Button>
                       </a>
                     </ButtonGroup>
                   </CardFooter>
-                </div>
+                </Flex>
               </Card>
 
               <Card
@@ -167,9 +201,9 @@ export default function HomePage() {
                 className="finch"
               >
                 <div className="card-content">
-                  <Image src="" borderRadius="lg" />
+                  <Heading size="large">Finch Collector</Heading>
+                  <Image src="" borderRadius="lg" objectFit="cover" h="60%" />
                   <Stack mt="3" spacing="3">
-                    <Heading size="md">Finch Collector</Heading>
                     <Text fontSize="md">
                       Finch Collector is a robust and intuitive app that allows
                       you to collect and store information about your favorite
@@ -179,6 +213,14 @@ export default function HomePage() {
                       {/* Add any additional content here */}
                     </Text>
                   </Stack>
+                </div>
+                <Flex
+                  direction="column"
+                  justify="flex-end"
+                  align="center"
+                  mt="auto"
+                  p="3"
+                >
                   <Divider />
                   <CardFooter>
                     <ButtonGroup spacing="2">
@@ -187,7 +229,11 @@ export default function HomePage() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="solid" colorScheme="blue">
+                        <Button
+                          variant="solid"
+                          colorScheme="blue"
+                          leftIcon={<FaExternalLinkAlt />}
+                        >
                           View App Now
                         </Button>
                       </a>
@@ -196,13 +242,17 @@ export default function HomePage() {
                         target="_blank"
                         rel="noopener noreferrer"
                       >
-                        <Button variant="solid" colorScheme="blue">
+                        <Button
+                          variant="solid"
+                          colorScheme="green"
+                          leftIcon={<FaGithub />}
+                        >
                           View GitHub Now
                         </Button>
                       </a>
                     </ButtonGroup>
                   </CardFooter>
-                </div>
+                </Flex>
               </Card>
             </Flex>
           </div>
