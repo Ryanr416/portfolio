@@ -20,11 +20,12 @@ import {
   Switch,
   BrowserRouter as Router,
 } from 'react-router-dom';
-
+import NavBar from './shared/NavBar';
 
 function App() {
   return (
     <Router>
+      <NavBar />
       <Routes>
         <Route exact path="/" element={<HomePage />} />
         <Route exact path="/home" element={<HomePage />} />
